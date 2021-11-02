@@ -98,7 +98,7 @@ main::after{
     text-align: center;
     vertical-align: middle;
     padding: 2px;
-    background-color: rgb(58, 168, 8);
+    background-color: rgb(39, 122, 0);
   
 }
 
@@ -127,6 +127,9 @@ main::after{
 .centre .prezzo,
 .centre .prezzo-ns{
     margin-left: 15px;
-    margin-bottom:50px;
 }
 
+main{
+    height: 100%;
+    margin-bottom:40px;
+}
