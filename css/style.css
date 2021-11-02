@@ -1,0 +1,132 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+main::after{
+    content:"";
+    display:table;
+    clear: both;
+}
+.foto{
+    width: 33%;
+    height: 500px;
+    float: left;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.cx{
+    padding:0 15px;
+}
+.uno{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    position: relative;
+}
+
+.due{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index:2
+}
+
+.foto:hover .uno
+{
+    z-index: 1;
+}
+
+.cuoricino{
+
+    line-height: 35px;
+    width: 30px;
+    height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    background-color: white;
+    right: 0;
+    top: 25px;
+    z-index:4;
+
+}
+
+.centre .cuoricino{
+    margin-right: 15px;
+}
+
+.banner{
+    
+    position: absolute;
+    left: 0;
+    bottom:25px;
+    z-index:4;
+    width: 70%;
+}
+
+.sconto{
+    display: inline-block;
+    color: white;
+    width: 20%;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 2px;
+    background-color: red;
+}
+
+.ban{
+    display:inline-block;
+    color: white;
+    width: 50%;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 2px;
+    background-color: rgb(58, 168, 8);
+  
+}
+
+.marchio{
+    color:rgb(97, 97, 97);
+}
+
+.nome{
+    color: black;
+    font-size: 1.1em;
+}
+
+.prezzo{
+    color:red;
+    margin-right: 5px;
+}
+
+.prezzo-ns{
+    color:rgb(97, 97, 97);
+    text-decoration: line-through;
+}
+
+.centre .banner,
+.centre .marchio,
+.centre .nome,
+.centre .prezzo,
+.centre .prezzo-ns{
+    margin-left: 15px;
+    margin-bottom:50px;
+}
+
